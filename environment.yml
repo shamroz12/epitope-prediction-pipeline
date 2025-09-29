@@ -1,0 +1,13 @@
+name: epitope-prediction
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - biopython
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
