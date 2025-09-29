@@ -1,4 +1,4 @@
-# 🧬 Epitope Prediction Pipeline
+# Epitope Prediction Pipeline
 
 This repository provides a reproducible **computational biology pipeline** for 
 predicting and analyzing **B-cell and T-cell epitopes** from protein sequences.  
@@ -6,7 +6,7 @@ It combines sequence analysis, machine learning models, and visualization.
 
 ---
 
-## 🚀 Features
+## Features
 - Parse DNA/Protein FASTA sequences
 - Compute basic sequence stats (GC content, codon usage, k-mer frequencies)
 - Predict epitopes (using toy methods + extendable wrappers to IEDB/ML models)
@@ -15,7 +15,7 @@ It combines sequence analysis, machine learning models, and visualization.
 
 ---
 
-## 📂 Repository Layout
+## Repository Layout
 - `data/` – example datasets (FASTA, epitopes)
 - `notebooks/` – Jupyter notebooks with tutorials
 - `src/` – Python source code
@@ -24,7 +24,7 @@ It combines sequence analysis, machine learning models, and visualization.
 
 ---
 
-## ⚙️ Installation
+## Installation
 Clone the repo and install dependencies:
 
 ```bash
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Example Usage
+## Example 
 Run epitope prediction on a protein sequence:
 
 ```python
@@ -48,7 +48,7 @@ print(epitopes)
 
 ---
 
-## 🧪 Dependencies
+## Dependencies
 - Python 3.9+
 - Biopython
 - NumPy / Pandas
@@ -58,5 +58,4 @@ print(epitopes)
 
 ---
 
-## 📜 License
-MIT License
+
