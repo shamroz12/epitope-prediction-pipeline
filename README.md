@@ -4,7 +4,6 @@ This repository provides a reproducible **computational biology pipeline** for
 predicting and analyzing **B-cell and T-cell epitopes** from protein sequences.  
 It combines sequence analysis, machine learning models, and visualization.
 
----
 
 ## Features
 - Parse DNA/Protein FASTA sequences
@@ -13,7 +12,6 @@ It combines sequence analysis, machine learning models, and visualization.
 - Visualize epitope distribution and sequence logos
 - Example datasets + Jupyter notebooks for step-by-step learning
 
----
 
 ## Repository Layout
 - `data/` – example datasets (FASTA, epitopes)
@@ -33,8 +31,6 @@ cd epitope-prediction-pipeline
 pip install -r requirements.txt
 ```
 
----
-
 ## Example 
 Run epitope prediction on a protein sequence:
 
@@ -46,8 +42,6 @@ epitopes = predict_epitopes(seq, method="toy")
 print(epitopes)
 ```
 
----
-
 ## Dependencies
 - Python 3.9+
 - Biopython
@@ -56,6 +50,5 @@ print(epitopes)
 - scikit-learn
 - Jupyter
 
----
 
 
